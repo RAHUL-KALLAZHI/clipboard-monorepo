@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  static const String server = "https://clipboard-mono-repo.onrender.com";
+  static const String server = "https://clipboard-monorepo.onrender.com";
 
   static Future<Map<String, dynamic>> confirmPair(
       String pairingId, String code, String mobileDeviceId) async {
